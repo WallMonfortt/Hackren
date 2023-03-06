@@ -30,14 +30,14 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-/* Acceder a un elemento dentro de otro */
+
 #menu ul{
     line-height: 46px;
     list-style: none;
 }
 #menu ul li{
     height: 46px;
-    /* Poner elementos uno a lado del otro */
+   
     display: inline-block;
     transition: all 300ms;
 }
@@ -45,9 +45,7 @@
 #menu a{
     display: block;
     color: white;
-    /* No haya decoracion en el texto */
     text-decoration: none;
-    /* Separacion entre enlace y enlace */
     padding-left: 100px;
     padding-right: 100px;
 }
