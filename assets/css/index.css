@@ -210,13 +210,32 @@ nav{
 	max-width: 900px;
 	background: white;
 }
+.page-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px auto;
+    max-width: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+/* main content */
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 70vw;
+    background-color: rgba(238, 16, 16, 0.5);
+    border-radius: 5px;
+}
 
 /* notice section */
 .notice-block {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 10%;
     height: 50%;
     margin: 100px auto;
     background-color: #a4a3a3c7;
@@ -259,10 +278,6 @@ nav{
   
   .notice-large a:hover {
     text-decoration: underline;
-  }
-
-  .small-notices{
-    
   }
   
   .notice-small {
