@@ -1,51 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/pretendo');
 *{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-.clearfix{
-    float: none;
-    clear: both;
+body{
+    background-image: url(../img/electric-neon-colorful-dark-background-lighting-3840x2160-2654.jpg);
+    background-size: cover;
 }
-
-#global{
-    width: 65%;
-    margin: 0px auto;
-    margin-top: 30px;
-    padding: 25px;
-    background: white;
-    box-shadow: 0px 0px 2px gray;
+.home{
+    display: flex;
+    flex-wrap: wrap;
 }
 #logo{
-    width: 136px;
-    height: 46px;
-    margin-bottom: 20px;
-    float: left;
-    padding-left: auto;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
 }
-#menu{
-    font-family: Arial, Helvetica, sans-serif;
-    background: black;
-    width: 100%;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: pretendo;
+    font-size: medium;
+    letter-spacing: 2px;
 }
-
-#menu ul{
-    line-height: 46px;
+.menu-horizontal{
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+  
 }
-#menu ul li{
-    height: 46px;
-   
-    display: inline-block;
-    transition: all 300ms;
-}
-
-#menu a{
+.menu-horizontal li a{
     display: block;
+    padding: 15px 20px;
     color: white;
     text-decoration: none;
-    padding-left: 100px;
-    padding-right: 100px;
+    
+}
+.menu-horizontal li:hover{
+    background-color: red;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+#html{
+	margin: auto;
+	padding: 20px;
+	max-width: 900px;
+	background: white;
 }
