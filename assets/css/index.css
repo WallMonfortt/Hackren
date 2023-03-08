@@ -1,9 +1,11 @@
-@import url('https://fonts.cdnfonts.com/css/pretendo');
+@font-face {
+    font-family:Ps;
+    src: url(..//font/ps-font/Ps.ttf);
+}
 *{
     margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    font-family: pretendo;
 }
 body{
     background-image: url(../img/electric-neon-colorful-dark-background-lighting-3840x2160-2654.jpg);
@@ -20,17 +22,151 @@ body{
     top: 25px;
     left: 50px;
 }
+/* Footer */
+footer{
+    font-family: Ps;
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+/* Redes */
+.social-bar {
+	position: fixed;
+	left: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-instagram {
+	background: #F56040;
+}
+.icon-youtube {
+	background: #FF0000;
+}
+
+.icon:first-child {
+	border-radius: 0 1rem 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 1rem 0;
+}
+
+.icon:hover {
+	padding-left: 3rem;
+	border-radius: 0 1rem 1rem 0;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+#face,
+#twi,
+#insta,
+#you{
+  height: 30px;
+  width: 30px;
+}
+/* Search */
+.container {
+	position: absolute;
+	left: 85%;
+	top: 7%;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+}
+
+input {
+	outline: none;
+	box-sizing: border-box;
+	height: 30px;
+	width: 0px;
+	padding: 0 20px;
+	color: #000;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid black;
+	transition: all .7s ease;
+}
+
+::placeholder {
+	color: grey;
+}
+
+.btn {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	background: #333;
+	line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn i {
+	font-size: 25px;
+	color: white;
+	line-height: 50px;
+	transition: all .7s ease;
+}
+
+.container:hover input {
+	width: 350px;
+}
+
+.container:hover i{
+	transform: rotate(-360deg);
+}
+
+.btn:hover{
+	background: #333;
+}
+
 
 /* navbar */
 nav{
-    max-width: 900px;
+    max-width: auto;
     margin: auto;
     background-color: #333;
     font-size: 20px;
     margin-top: 50px;
     border-radius: 5px;
-    font-size: medium;
+    font-size: 10px;
     letter-spacing: 2px;
+    font-family: Ps;
 }
 .menu-horizontal{
     list-style: none;
