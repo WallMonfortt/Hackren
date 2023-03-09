@@ -10,6 +10,9 @@
 body{
     background-image: url(../img/electric-neon-colorful-dark-background-lighting-3840x2160-2654.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .home{
     display: flex;
@@ -97,7 +100,7 @@ footer{
   width: 30px;
 }
 /* Search */
-.container {
+.b-search {
 	position: absolute;
 	left: 85%;
 	top: 7%;
@@ -143,11 +146,11 @@ input {
 	transition: all .7s ease;
 }
 
-.container:hover input {
+.b-search:hover input {
 	width: 350px;
 }
 
-.container:hover i{
+.b-search:hover i{
 	transform: rotate(-360deg);
 }
 
