@@ -3,10 +3,11 @@
     src: url(..//font/ps-font/Ps.ttf);
 }
 *{
-    margin: 0;
+  margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body{
     background-image: url(../img/electric-neon-colorful-dark-background-lighting-3840x2160-2654.jpg);
     background-size: cover;
@@ -99,6 +100,7 @@ footer{
   height: 30px;
   width: 30px;
 }
+
 /* Search */
 .b-search {
 	position: absolute;
@@ -158,7 +160,9 @@ input {
 	background: #333;
 }
 
-
+@media screen and (max-width:800px) {
+  
+}
 /* navbar */
 nav{
     max-width: auto;
