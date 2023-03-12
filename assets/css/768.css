@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   @font-face {
     font-family: Ps;
     src: url(..//font/ps-font/Ps.ttf);
@@ -15,7 +15,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    width: 100%;
   }
   #logo {
     width: 130px;
@@ -29,14 +28,14 @@
     font-family: Ps;
     font-size: 8px;
     color: white;
-    height: 50px;
+    height: 30px;
     background: rgba(51, 51, 51, 0.7);
-    margin: 0px auto;
-    width: 90%;
+    /* margin: 0px auto; */
+    width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 70px;
-    line-height: 25px;
+    margin-top: 20px;
+    line-height: 20px;
   }
   .subir {
     color: white;
@@ -44,6 +43,7 @@
     display: block;
     float: right;
   }
+
   /* Social */
   .social-bar {
     position: fixed;
@@ -97,7 +97,7 @@
   /* Search */
   .b-search {
     position: absolute;
-    left: 50%;
+    left: 25%;
     top: 15%;
     transform: translate(-50%, -50%);
     padding: 10px;
@@ -164,7 +164,6 @@
     font-size: 10px;
     letter-spacing: 2px;
     font-family: Ps;
-    visibility: hidden;
   }
 
   .menu-horizontal {
@@ -224,7 +223,7 @@
     display: flex;
     justify-content: space-around;
     margin: 20px auto;
-    width: 100vw;
+    width: 44vw;
     background-color: rgba(218, 217, 217, 0.5);
     border-radius: 15px;
   }
@@ -274,8 +273,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 380px;
     margin: 100px 5px;
     background-color: #a4a3a3c7;
     border: 1px solid #ccc;
