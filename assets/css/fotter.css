@@ -1,0 +1,50 @@
+/* Footer */
+footer {
+    font-family: Ps;
+    color: white;
+    height: 50px;
+    background: rgba(51, 51, 51, 0.7);
+    margin: 0px auto;
+    width: 70%;
+    padding: 0 20px;
+    margin-top: 50px;
+    line-height: 47px;
+  }
+
+
+@media screen and (max-width: 480px) {
+footer {
+    font-family: Ps;
+    font-size: 0.5em;
+    text-align: center;
+    color: white;
+    background: rgba(51, 51, 51, 0.7);
+    padding: 0 10px;
+    max-width: 100%;
+    margin: 20px auto;
+    line-height: 47px;
+    box-sizing: border-box;
+}
+#up{
+    display: block;
+    padding: 0.3em 0.5em 0.9em 0.5em;
+    background-color: rgba(51, 51, 51, 0.7);
+    position: fixed;
+    bottom: 120px;
+    right: 15px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    width: auto;
+
+
+}
+#up b a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+#up b{
+    font-size: 36px;
+}
+
+}

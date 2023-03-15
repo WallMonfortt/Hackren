@@ -2,6 +2,7 @@
 @import url("./search.css");
 @import url("./header.css");
 @import url("./grid.css");
+@import url("./fotter.css");
 
 
 
@@ -18,25 +19,7 @@
 }
 
 
-/* Footer */
-footer {
-  font-family: Ps;
-  color: white;
-  height: 47px;
-  background: rgba(51, 51, 51, 0.7);
-  margin: 0px auto;
-  width: 70%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 50px;
-  line-height: 47px;
-}
-.subir {
-  color: white;
-  text-decoration: none;
-  display: block;
-  float: right;
-}
+
 /* Redes */
 .social-bar {
   position: fixed;
