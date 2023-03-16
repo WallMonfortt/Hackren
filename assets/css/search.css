@@ -57,57 +57,103 @@
     background: #333;
   } */
 
-
-  /* TODO: implement this screen */
+/* TODO: implement this screen */
 @media screen and (max-width: 768px) {
+  .b-search {
+    left: 70%;
+    top: 7%;
+    padding: 10px;
+  }
+
+  input {
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0px;
+    padding: 0 20px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: all 0.7s ease;
+  }
+
+  ::placeholder {
+    color: grey;
+  }
+
+  .btn {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 70vw;
+    margin-top: 2vh;
+    margin-left: 12vw;
+  }
+
+  .btn i {
+    font-size: 30px;
+    color: white;
+    transition: all 0.7s ease;
+    width: 60vw;
+    height: 5vw;
     
+  }
+
+  .b-search:hover input {
+    width: 95vw;
+  }
+
+  .b-search:hover i {
+    transform: rotate(-360deg);
+    
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .b-search {
-        left: 85%;
-        top: 7%;
-        padding: 10px;
-      }
-      
-      input {
-        outline: none;
-        box-sizing: border-box;
-        height: 30px;
-        width: 0px;
-        padding: 0 20px;
-        color: #000;
-        border-radius: 50px;
-        font-size: 20px;
-        border: 1px solid black;
-        transition: all 0.7s ease;
-      }
-      
-      ::placeholder {
-        color: grey;
-      }
-      
-      .btn {
-        text-align: center;
-        cursor: pointer;
-        transition: 0.5s;
-      }
-      
-      .btn i {
-        font-size: 25px;
-        color: white;
-        line-height: 50px;
-        transition: all 0.7s ease;
-      }
-      
-      .b-search:hover input {
-        width: 95vw;
-      }
-      
-      .b-search:hover i {
-        transform: rotate(-360deg);
-      }
-      
+  .b-search {
+    left: 90%;
+    top: 7%;
+    padding: 10px;
+  }
 
+  input {
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    width: 0px;
+    padding: 0 20px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: all 0.7s ease;
+  }
+
+  ::placeholder {
+    color: grey;
+  }
+
+  .btn {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 70vw;
+    margin-top: 5vh;
+    margin-left: 12vw;
+  }
+
+  .btn i {
+    font-size: 25px;
+    color: white;
+    transition: all 0.7s ease;
+  }
+
+  .b-search:hover input {
+    width: 95vw;
+  }
+
+  .b-search:hover i {
+    transform: rotate(-360deg);
+  }
 }
-

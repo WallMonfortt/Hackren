@@ -1,0 +1,118 @@
+/* Redes */
+.social-bar {
+  position: fixed;
+  left: 0;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 100;
+  width: 9vw;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  padding-left: 0.1rem;
+  display: flex;
+  transition: all 0.5s;
+  width: 9vw;
+}
+
+.icon-facebook {
+  background: #2e406e;
+}
+
+.icon-twitter {
+  background: #339dc5;
+}
+
+.icon-instagram {
+  background: #f56040;
+}
+.icon-youtube {
+  background: #ff0000;
+}
+
+.icon:first-child {
+  border-radius: 0 1rem 0 0;
+}
+
+.icon:last-child {
+  border-radius: 0 0 1rem 0;
+}
+
+.icon:hover {
+  padding-left: 3rem;
+  border-radius: 0 1rem 1rem 0;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+#face,
+#twi,
+#insta,
+#you {
+  width: 10vw;
+  height: 8vw;
+}
+
+@media screen and (max-width: 768px) {
+  .social-bar {
+    position: fixed;
+    left: 0;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 100;
+    width: 9vw;
+  }
+
+  .icon {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    padding-left: 0.1rem;
+    display: flex;
+    transition: all 0.5s;
+    width: 9vw;
+  }
+  #face,
+  #twi,
+  #insta,
+  #you {
+    width: 8vw;
+    height: 7vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .social-bar {
+    position: fixed;
+    left: 0;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 100;
+    width: 9vw;
+  }
+
+  .icon {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    padding-left: 0.1rem;
+    display: flex;
+    transition: all 0.5s;
+    width: 9vw;
+  }
+  #face,
+  #twi,
+  #insta,
+  #you {
+    width: 10vw;
+    height: 8vw;
+  }
+}
+

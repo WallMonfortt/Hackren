@@ -8,18 +8,18 @@
   border-radius: 5px;
 }
 
-.col-1 { 
-    width: 100%;
-    text-align: center;
-    padding-top: 10vh;
-    font-size: 3rem;
-    padding: 3%;
+.col-1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 3rem;
+  padding: 3%;
 }
 
-.col-2{
-    width: 50%;
-    text-align: center;
-    padding-top: 10vh;
-    font-size: 3rem;
-    padding: 3%;
+.col-2 {
+  width: 50%;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 3rem;
+  padding: 3%;
 }

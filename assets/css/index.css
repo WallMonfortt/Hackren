@@ -5,9 +5,7 @@
 @import url("./fotter.css");
 @import url("./notice.css");
 @import url("./content.css");
-
-
-
+@import url("./social.css");
 
 @font-face {
   font-family: Ps;
@@ -29,65 +27,15 @@
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
+@media screen and (max-width: 768px) {
+  .page-body{
+    margin: 20vw auto;
+  }
 
-
-
-/* Redes */
-.social-bar {
-  position: fixed;
-  left: 0;
-  top: 35%;
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  z-index: 100;
 }
+@media screen and (max-width: 480px) {
+  .page-body{
+    margin: 1vh auto;
+  }
 
-.icon {
-  color: white;
-  text-decoration: none;
-  padding: 0.7rem;
-  display: flex;
-  transition: all 0.5s;
 }
-
-.icon-facebook {
-  background: #2e406e;
-}
-
-.icon-twitter {
-  background: #339dc5;
-}
-
-.icon-instagram {
-  background: #f56040;
-}
-.icon-youtube {
-  background: #ff0000;
-}
-
-.icon:first-child {
-  border-radius: 0 1rem 0 0;
-}
-
-.icon:last-child {
-  border-radius: 0 0 1rem 0;
-}
-
-.icon:hover {
-  padding-left: 3rem;
-  border-radius: 0 1rem 1rem 0;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
-}
-#face,
-#twi,
-#insta,
-#you {
-  height: 30px;
-  width: 30px;
-}
-
-
-
-

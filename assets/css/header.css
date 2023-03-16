@@ -1,40 +1,41 @@
 @import url("./navbar.css");
 
-
-
-header{
-    display: flex;
-    flex-wrap: wrap;
-
+header {
+  display: flex;
+  flex-wrap: wrap;
 }
-
 
 /* TODO: implement this screen */
 /* Tablet */
 @media screen and (max-width: 768px) {
-    header{
-        height: 20vh;
-    }
-    
-    
+  header {
+    height: 20vh;
+  }
+  #logo {
+    display: block;
+    align-items: center;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 /* mobile css */
 @media screen and (max-width: 480px) {
-    header{
-        display: block;
-        width: 100vw;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        height: auto;
+  header {
+    display: block;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+  }
 
-    }
-
-    #logo{
-        display: block;
-        align-items: center;
-        width: 90vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  #logo {
+    display: block;
+    align-items: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
