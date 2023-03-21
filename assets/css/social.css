@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: flex-start;
   z-index: 100;
-  width: 9vw;
+  width: 4vw;
 }
 
 .icon {
@@ -17,7 +17,7 @@
   padding-left: 0.1rem;
   display: flex;
   transition: all 0.5s;
-  width: 9vw;
+  width: 4vw;
 }
 
 .icon-facebook {
@@ -44,7 +44,7 @@
 }
 
 .icon:hover {
-  padding-left: 3rem;
+  padding-left: 1rem;
   border-radius: 0 1rem 1rem 0;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
 }
@@ -52,8 +52,8 @@
 #twi,
 #insta,
 #you {
-  width: 10vw;
-  height: 8vw;
+  width: 5vw;
+  height: 5vh;
 }
 
 @media screen and (max-width: 768px) {

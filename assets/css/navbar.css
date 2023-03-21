@@ -1,48 +1,53 @@
 /* navbar */
-/* .nav {
-    margin: auto;
-    background-color: #333;
-    font-size: 20px;
-    margin-top: 50px;
-    border-radius: 5px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    font-family: Ps;
-    width: 1000px;
-  }
-  .menu-horizontal {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-  }
-  .menu-horizontal li a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
-  }
-  .menu-horizontal li:hover {
-    background-color: red;
-  }
-  .menu-vertical {
-    position: absolute;
-    display: none;
-    list-style: none;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .menu-horizontal li:hover .menu-vertical {
-    display: block;
-  }
-  .menu-vertical li:hover {
-    background-color: black;
-  }
-  .menu-vertical li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 15px 15px 15px 20px;
-  } */
+.menu-item, .hamburger-lines .nav-container .checkbox{
+  display: none;
+}
+.nav {
+  margin: auto;
+  background-color: #333;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-family: Ps;
+  width: 60vw;
+}
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-horizontal li{
+  margin: 5px;
+}
+.menu-horizontal li a {
+  display: block;
+  padding: 15px 0;
+  width: 70px;
+  margin-right: 0;
+  color: white;
+  text-decoration: none;
+}
+.menu-horizontal li:hover {
+  background-color: red;
+}
+.menu-vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+.menu-vertical li:hover {
+  background-color: black;
+}
+.menu-vertical li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px 15px 20px;
+}
 
 .ham-navbar {
   display: none;
@@ -50,13 +55,13 @@
 
 /* TODO: implement this screen */
 @media screen and (max-width: 768px) {
-  .nav{
+  .nav {
     display: none;
   }
-  .menu-vertical{
+  .menu-vertical {
     display: none;
   }
-  .menu-horizontal{
+  .menu-horizontal {
     display: none;
   }
   .ham-navbar {

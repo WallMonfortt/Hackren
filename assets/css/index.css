@@ -22,7 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 50px auto;
+  margin: 50px 90px;
   max-width: 95%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;

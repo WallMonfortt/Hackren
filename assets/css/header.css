@@ -4,6 +4,18 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+#logo {
+  display: block;
+  align-items: center;
+  width: 15vw;
+  margin-left: 1vw;
+}
+#home{
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  margin-left: 1vw;
+}
 
 /* TODO: implement this screen */
 /* Tablet */
