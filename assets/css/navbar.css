@@ -5,24 +5,26 @@
 .nav {
   margin: auto;
   background-color: #333;
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
   border-radius: 5px;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-family: Ps;
-  width: 60vw;
+  max-width: 60vw;
 }
 .menu-horizontal {
   list-style: none;
   display: flex;
-  /* justify-content: space-around; */
+  max-width: 60vw;
+  justify-content: space-around;
 }
 .menu-horizontal li{
-  margin: 5px;
+  /* margin: 5px; */
+  max-width: 8.57vw;
 }
 .menu-horizontal li a {
   display: block;
   padding: 15px;
-  width: 15vw;
+  width: 8.57vw;
   color: white;
   text-decoration: none;
 }
