@@ -14,16 +14,15 @@
 .menu-horizontal {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 .menu-horizontal li{
   margin: 5px;
 }
 .menu-horizontal li a {
   display: block;
-  padding: 15px 0;
-  width: 70px;
-  margin-right: 0;
+  padding: 15px;
+  width: 15vw;
   color: white;
   text-decoration: none;
 }

@@ -1,5 +1,5 @@
 /* Search */
-.b-search {
+/* .b-search {
     position: absolute;
     left: 85%;
     top: 7%;
@@ -55,7 +55,7 @@
   
   .btn:hover {
     background: #333;
-  } 
+  }  */
 
 /* TODO: implement this screen */
 @media screen and (max-width: 768px) {
