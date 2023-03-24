@@ -123,21 +123,26 @@ input {
 
 @media screen and (max-width: 480px) {
   .b-search {
-    left: 90%;
-    top: 7%;
+    position: relative;
+    left: 10%;
     padding: 10px;
+    height: 11vh;
+    padding: 10px;
+    top: 40px;
   }
 
   input {
-    outline: none;
     box-sizing: border-box;
-    height: 30px;
-    width: 0px;
+    background-color: #333;
+    height: 7vw;
+    width: 4vw;
+    top: 3.5vw;
+    left: 12vw;
     padding: 0 20px;
     color: #000;
     border-radius: 50px;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid #333;
     transition: all 0.7s ease;
   }
 
@@ -149,19 +154,25 @@ input {
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-    width: 70vw;
-    margin-top: 5vh;
-    margin-left: 12vw;
+    width: 14vw;
+    height: 8vh;
+    margin: 2vh;
+    /* visibility: hidden; */
   }
 
   .btn i {
-    font-size: 25px;
+    position: relative;
+    font-size: 30px;
     color: white;
     transition: all 0.7s ease;
+    top: 2px;
+    width: 15vw;
+    height: 15vw;
   }
 
   .b-search:hover input {
-    width: 95vw;
+    width: 70vw;
+    background-color: white;
   }
 
   .b-search:hover i {
