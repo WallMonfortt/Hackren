@@ -8,8 +8,8 @@
 @import url("./social.css");
 
 @font-face {
-  font-family: Ps;
-  src: url(..//font/ps-font/Ps.ttf);
+  font-family: akira;
+  src: url(..//font/akira/akira.otf);
 }
 * {
   margin: 0;

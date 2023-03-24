@@ -5,11 +5,11 @@
 .nav {
   margin: auto;
   background-color: #333;
-  /* font-size: 0.7rem; */
+  font-size: 1rem;
   border-radius: 5px;
-  /* letter-spacing: 2px; */
-  font-family: Ps;
+  font-family: akira;
   max-width: 60vw;
+  margin-left: 55px;
 }
 .menu-horizontal {
   list-style: none;
@@ -18,8 +18,8 @@
   justify-content: space-around;
 }
 .menu-horizontal li{
-  /* margin: 5px; */
   max-width: 8.57vw;
+  text-align: center;
 }
 .menu-horizontal li a {
   display: block;
@@ -27,6 +27,7 @@
   width: 8.57vw;
   color: white;
   text-decoration: none;
+  
 }
 .menu-horizontal li:hover {
   background-color: red;
@@ -35,6 +36,7 @@
   position: absolute;
   display: none;
   list-style: none;
+  width: 8.6vw;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .menu-horizontal li:hover .menu-vertical {
@@ -44,15 +46,18 @@
   background-color: black;
 }
 .menu-vertical li a {
+  font-size: 0.9rem;
   display: block;
   color: white;
   text-decoration: none;
-  padding: 15px 15px 15px 20px;
+  padding: 15px 10px 15px 10px;
+  margin: auto;
 }
 
 .ham-navbar {
   display: none;
 }
+
 
 /* TODO: implement this screen */
 @media screen and (max-width: 768px) {

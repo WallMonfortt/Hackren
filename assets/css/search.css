@@ -1,80 +1,89 @@
 /* Search */
-/* .b-search {
-    position: absolute;
-    left: 85%;
-    top: 7%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-  }
+@media screen and (max-width:1920px) {
   
-  input {
-    outline: none;
-    box-sizing: border-box;
-    height: 30px;
-    width: 0px;
-    padding: 0 20px;
-    color: #000;
-    border-radius: 50px;
-    font-size: 20px;
-    border: 1px solid black;
-    transition: all 0.7s ease;
-  }
-  
-  ::placeholder {
-    color: grey;
-  }
-  
-  .btn {
-    position: absolute;
-    right: 10px;
-    top: 0px;
-    width: 50px;
-    height: 50px;
-    background: #333;
-    line-height: 50px;
-    border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-  
-  .btn i {
-    font-size: 25px;
-    color: white;
-    line-height: 50px;
-    transition: all 0.7s ease;
-  }
-  
-  .b-search:hover input {
-    width: 350px;
-  }
-  
-  .b-search:hover i {
-    transform: rotate(-360deg);
-  }
-  
-  .btn:hover {
-    background: #333;
-  }  */
+
+input {
+  position: relative;
+  outline: none;
+  box-sizing: border-box;
+  height: 30px;
+  width: 1px;
+  left: 30px;
+  padding: 0 0px 0px 20.5px;
+  color: #000;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid black;
+  transition: all 0.7s ease;
+}
+
+.b-search {
+  position: absolute;
+  width: 20%;
+  left: 90%;
+  top: 5.5vh;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.btn {
+  position: absolute;
+  top: 0px;
+  width: 52px;
+  height: 52px;
+  background: #333;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn i {
+  font-size: 25px;
+  width: 50px;
+  color: white;
+  line-height: 50px;
+  transition: all 0.7s ease;
+}
+
+.b-search:hover input {
+  width: 300px;
+}
+
+.b-search:hover i {
+  transform: rotate(-360deg);
+}
+
+.btn:hover {
+  background: #333;
+}
+}
 
 /* TODO: implement this screen */
 @media screen and (max-width: 768px) {
   .b-search {
-    left: 70%;
-    top: 7%;
+    left: 10%;
+    top: 28%;
+    height: 11vh;
     padding: 10px;
   }
 
   input {
-    outline: none;
     box-sizing: border-box;
-    height: 40px;
-    width: 0px;
+    background-color: #333;
+    height: 5vw;
+    top: 3vw;
+    left: 10vw;
     padding: 0 20px;
     color: #000;
     border-radius: 50px;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid #333;
     transition: all 0.7s ease;
   }
 
@@ -86,27 +95,29 @@
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
-    width: 70vw;
-    margin-top: 2vh;
-    margin-left: 12vw;
+    width: 10vw;
+    height: 7.5vh;
+    margin: 2vh;
+    /* visibility: hidden; */
   }
 
   .btn i {
+    position: relative;
     font-size: 30px;
     color: white;
     transition: all 0.7s ease;
-    width: 60vw;
-    height: 5vw;
-    
+    top: 12px;
+    width: 10vw;
+    height: 10vw;
   }
 
   .b-search:hover input {
-    width: 95vw;
+    width: 80vw;
+    background-color: white;
   }
 
   .b-search:hover i {
     transform: rotate(-360deg);
-    
   }
 }
 
